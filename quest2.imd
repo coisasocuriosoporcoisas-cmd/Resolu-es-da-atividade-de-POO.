@@ -1,0 +1,23 @@
+2- Qual a diferença entre declarar um vetor com valor fixo e inicializá-lo com valores específicos?
+Qundo estabelecemos um vetor com um valor especifico, estamos informando a memória o tamanho que ela deve guarda para gerenciar a operação, mas ao mesmo tempo pode acarretá em lixo eletrônico, pois estamos "usando" valores indefinidos, além de que será necessario passa a cada um dos espaçoes os determinadaos dados..
+já quando inicializamos com valores espefificos , estamos tratdando de dados dfinidos o que contribuir para resolver o problema de lixo eletrônico, o que permite manipulalos imediatamnete sem perde tempo repassando valores a cada um dos espaços.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
