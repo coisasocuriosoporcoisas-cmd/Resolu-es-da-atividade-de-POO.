@@ -1,0 +1,4 @@
+3-explique o que é índice e qual o intervalo válidon a um vetor int notas[10]
+O conceito de índice se tratar da ordem que cada elemento será repassado no vetor, além de se a parte que definira aonde está o dado que foi repassado.
+o intervalo no vetor passado é de 0 a 9, quando o vetor reseva espaço na memória, a 10 tipos int, ele inicia pela quantidade de intens que estão antes dele, como o primeiro valor é o inicio ,
+não há outro valor antes dele, na variavel de índice 1, posição 2, estão 1, valores antes dele e assim sucessivamente, até chega no objeto de índice 9, posição 10, já que existe 9 valores antes dele.
