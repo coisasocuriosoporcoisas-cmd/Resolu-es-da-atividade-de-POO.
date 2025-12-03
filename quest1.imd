@@ -1,0 +1,30 @@
+1-o que é vetor em c++? explique com suas palavras
+
+R-Se tratar da coleção de dados de um  mesmo tipo armazenados em uma única estrutura denominada array, contendo um tamanho definido para serem usados. 
+
+Resposta complementa:
+
+Conjunto de variaveis de um mesmo tipo (é objetivo) compactadas em apenas um elemento(array). 
+Possuindo tamanho pré-definido, estendendo-se até que esse tamanho seja preenchido.
+Para acessá-los ou atribuir valores, é necessário informar seu índice (sua posição) que é ordenada a partir do menor número(0).
+
+ex: 
+#include <iostream>
+int main(){
+  int vetores[8];
+/*vetor fatorado 
+  vetores[
+  vetor0,    
+  vetor1,
+  vetor2,       
+  vetor3,--------> aqui de maneira ilustrativa podemos visualizar melhor como é guardado internamente os espaços na memória, que armazenará valores ou não a cada um dos espaços disponíveis.
+  vetor4,
+  vetor5,
+  vetor6,
+  vetor7.
+]
+*/
+
+  return 0;
+}
+
