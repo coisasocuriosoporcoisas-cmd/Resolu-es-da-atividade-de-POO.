@@ -1,1 +1,1 @@
-# Resolu-es-da-atividade-de-POO.
+# Resoluções-da-atividade-de-POO.
