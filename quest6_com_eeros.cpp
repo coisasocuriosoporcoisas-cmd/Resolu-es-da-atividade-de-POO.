@@ -17,13 +17,13 @@
  using namespace std;
 int main(){
 	
-	int numeros[5];
+	int numeros[8];
 	
 	//int maior = numeros[0];//
     //int menor = numeros[0];//<-declara as variaveis aqui só quando o meu array já estive com seus valores definidos.
 	
 	
-	 for (int i = 0; i < 5; i++) {
+	 for (int i = 0; i < 8; i++) {
         cout << "Digite o valor para a posicao " << i+1 << ": ";
         cin >> numeros[i];
     }
@@ -31,7 +31,7 @@ int main(){
 	int maior = numeros[0];//elas estão aqui para evitar erros lógicos, pois se inicializamos elas antes de passamos os respectivais valores, ocorrera erros.
     int menor = numeros[0];//
 	
-	for(int i=0;i<5;i++){
+	for(int i=0;i<8;i++){
 		
 		
      if (numeros[i]> maior ){
