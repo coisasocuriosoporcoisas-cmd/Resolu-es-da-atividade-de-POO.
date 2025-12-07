@@ -1,6 +1,17 @@
 2- Qual a diferença entre declarar um vetor com valor fixo e inicializá-lo com valores específicos?
-Qundo estabelecemos um vetor com um valor especifico, estamos informando a memória o tamanho que ela deve guarda para gerenciar a operação, mas ao mesmo tempo pode acarretá em lixo eletrônico, pois estamos "usando" valores indefinidos, além de que será necessario passa a cada um dos espaçoes os determinadaos dados..
-já quando inicializamos com valores espefificos , estamos tratdando de dados dfinidos o que contribuir para resolver o problema de lixo eletrônico, o que permite manipulalos imediatamnete sem perde tempo repassando valores a cada um dos espaços.
+A principal diferença entre declarar um vetor com valor fixo e inicializá-lo com valor específico, está na natureza do processo.
+Quando estabelecemos um valor fixo ao vetor, estamos apenas informando a quantidade determinada de  dados que poderão ser armazenados naquela estrutura, por exemplo:
+	int vetor[4]; <- essa estrutura terá 5 espaços para ocupar dados do tipo int(números inteiros).
+
+Já quando inicializamos, estamos apenas  repassando  dados às respectivas  posições do vetor. 
+Nesse caso podemos realizar de duas maneiras:
+A primeira sem repassa a quantidade termos:
+int vetor[]{12,4,5,6,7};
+
+A segunda  informando a quantidade  de valores:
+
+ int vetor[5]{12,4,5,6,7}; 
+
 
 
 
