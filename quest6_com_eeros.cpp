@@ -59,7 +59,7 @@ int main(){
 		}			  
 					  
 					  */
-	 else
+	 if ( numeros[i] < menor)//aqui segue o mesmo esquema, em vez de ter um else para caso contrário, o que quebraria a lógica, já que ambos os valores precisam ser chegados individualmente, o if verficar se o anterior e menor que o atual, e assim sucecivamente.
 	 {
 		menor = numeros[i];//
 	 }
