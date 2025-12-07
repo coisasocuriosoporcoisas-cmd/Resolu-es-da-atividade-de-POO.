@@ -10,22 +10,19 @@
 
 
 
-/*- Leia 8 números inteiros para dentro de um vetor e determine:
-    O maior valor e em qual posição ele está
-    O menor valor e em qual posição ele está
-*/
+
 
  using namespace std;
 int main(){
 	
-	int numeros[5];
+	int numeros[10];
    
 	
 	//int maior = numeros[0];//
     //int menor = numeros[0];//<-declara as variaveis aqui só quando o meu array já estive com seus valores definidos.
 	
 	
-	 for (int i = 0; i < 5; i++) {
+	 for (int i = 0; i < 10; i++) {
         cout << "Digite o valor para a posicao " << i+1 << ": ";
         cin >> numeros[i];
     }
@@ -34,7 +31,7 @@ int main(){
     int menor = numeros[0];//
 	int indicemaior = 0;
     int indicemenor = 0;
-	for(int i=0;i<5;i++){
+	for(int i=0;i<10;i++){
 		
 		
      if (numeros[i]> maior ){
@@ -74,9 +71,8 @@ int main(){
 	
 	
 	
-	cout<<"maior:"<< maior<< "SEU INDICE"<<indicemaior <<endl;//
-    cout<<"menor:"<<menor<< "SEU INDICE"<<indicemenor<<endl;//
+	cout<<"O maior e:"<< maior<< "\tSEU INDICE E:"<<indicemaior <<endl;//
+    cout<<"O menor e:"<<menor<< "\tSEU INDICE E:"<<indicemenor<<endl;//
 	
 	return 0;
 }
-
