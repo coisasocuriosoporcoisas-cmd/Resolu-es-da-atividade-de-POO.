@@ -36,7 +36,7 @@ int main(){
 			cout<<"a posição do número x é "<< pos <<endl;
 			break;
 		}
-		else{
+		else if (i==9){
 		   cout<<"o número não foi encontrado no vetor!"<<endl;
 		}
 	}
